@@ -1,5 +1,4 @@
-
-const fs = require("fs");
+import fs from "fs";
 
 
 fs.readFile("log.txt", "utf-8", (error, data) => {

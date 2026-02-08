@@ -1,0 +1,12 @@
+import registerBooks from "./LibraryManagementSystem/src/registerBooks.js";
+console.log(registerBooks("Days at the Morisaki Bookshop","Satoshi Yagisawa","Rs.270"));
+import registerMember from "./LibraryManagementSystem/src/registerMember.js";
+console.log(registerMember("Srishti","Gold"));
+import borrowRecord from "./LibraryManagementSystem/src/borrowRecord.js";
+console.log(borrowRecord("2026-01-30T12:11:02.740Z","2026-01-30T12:09:32.497Z",2));
+import {capitalize} from "./stringUtils.js";
+console.log(capitalize("srishti"));
+import {reverseString} from "./stringUtils.js";
+console.log(reverseString("abc"));
+import {countVowels} from "./stringUtils.js";
+console.log(countVowels("node"));
