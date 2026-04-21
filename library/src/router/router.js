@@ -21,7 +21,6 @@ function sendError(res, error) {
 router.post("/signup", signup, signupService);
 router.post("/login", login, loginMember);
 
-// Library routes
 router.post("/books", auth, registerBooks, async (req, res) => {
     try {
         const { title, author, price } = req.body;
@@ -49,7 +48,7 @@ router.post("/members", auth, async (req, res) => {
         sendError(res, error);
     }
 });
-
+//
 router.post("/borrow", auth, async (req, res) => {
     try {
         const { memberId, bookIds } = req.body;
