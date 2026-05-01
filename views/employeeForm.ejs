@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Employee</title>
+</head>
+<body>
+	<h2>Add Employee</h2>
+	<form action="/api/employee" method="POST">
+		<label>Name: <input type="text" name="name" required></label><br>
+		<label>Email: <input type="email" name="email" required></label><br>
+		<label>Department: <input type="text" name="department" required></label><br>
+		<label>Salary: <input type="number" name="basicSalary" required></label><br>
+		<button type="submit">Add Employee</button>
+	</form>
+	<a href="/">Back to Home</a>
+</body>
+</html>
