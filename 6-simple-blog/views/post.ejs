@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= post.title %></title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.8; }
+        h1 { color: #2c3e50; font-size: 2.5em; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 30px; }
+        .content { font-size: 1.1em; color: #444; white-space: pre-line; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #7f8c8d; }
+        .back-link:hover { text-decoration: underline; color: #34495e; }
+    </style>
+</head>
+<body>
+    <a href="/posts" class="back-link">&larr; Back to all posts</a>
+    <article>
+        <h1><%= post.title %></h1>
+        <div class="content"><%= post.content %></div>
+    </article>
+</body>
+</html>

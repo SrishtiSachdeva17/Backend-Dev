@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background-color: #f4f4f9; padding-top: 100px; }
+        .error-container { display: inline-block; padding: 40px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { font-size: 80px; margin: 0; color: #e74c3c; }
+        h2 { color: #333; }
+        p { color: #666; margin-bottom: 20px; }
+        a { text-decoration: none; background-color: #3498db; color: white; padding: 10px 20px; border-radius: 5px; transition: background 0.3s; }
+        a:hover { background-color: #2980b9; }
+        code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>The page you are looking for at <code><%= url %></code> does not exist.</p>
+        <a href="/">Return to Home</a>
+    </div>
+</body>
+</html>

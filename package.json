@@ -1,0 +1,24 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "Project Repository: https://github.com/SrishtiSachdeva17/ai_resumeBuilder\r Project Deployment: https://ai-resume-builder-liard-tau.vercel.app/\r Project Branch Backend_Dev: https://github.com/SrishtiSachdeva17/Backend-Dev/tree/project\r Project Documentation: https://github.com/SrishtiSachdeva17/ai_resumeBuilder/tree/documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrishtiSachdeva17/Backend-Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrishtiSachdeva17/Backend-Dev/issues"
+  },
+  "homepage": "https://github.com/SrishtiSachdeva17/Backend-Dev#readme",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}
