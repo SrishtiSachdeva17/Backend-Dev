@@ -1,0 +1,15 @@
+1-->create two branches
+: git branch branch1
+git branch branch2
+
+2-->merge branch1 into main
+: git checkout main'
+git merge branch1
+
+3-->attempt merge branch2
+: git merge branch2
+CONFLICT occured
+
+4-->resolve conflict manually and commit change 
+:git add file.txt
+git commit -m "confilct resolved"
