@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Monsoon Pages",
+    "author": "Naina Verma",
+    "year": 2018
+  },
+  {
+    "id": 2,
+    "title": "Node Routes in Practice",
+    "author": "Kabir Mehta",
+    "year": 2022
+  },
+  {
+    "id": 3,
+    "title": "The Quiet Compiler",
+    "author": "Ira Sen",
+    "year": 2020
+  },
+  {
+    "id": 4,
+    "title": "Express Patterns",
+    "author": "Kabir Mehta",
+    "year": 2024
+  },
+  {
+    "id": 5,
+    "title": "Beyond the Bookmark",
+    "author": "Tara Kapoor",
+    "year": 2016
+  }
+]
