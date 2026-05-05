@@ -1,23 +1,23 @@
 {
-  "name": "backend-dev",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SrishtiSachdeva17/Backend-Dev.git"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SrishtiSachdeva17/Backend-Dev/issues"
-  },
-  "homepage": "https://github.com/SrishtiSachdeva17/Backend-Dev#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.0",
+    "http-status-pro-js": "^1.1.0",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1"
   }
 }

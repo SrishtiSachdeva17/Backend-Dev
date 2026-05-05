@@ -1,0 +1,33 @@
+02 Secure Blogging Platform API
+(Multi-User + JWT Auth)
+Scenario
+Build a backend API for a blogging system with users and posts.
+
+Data Structures
+User:
+{ id, name, email, passwordHash, role, createdAt }
+
+Post:
+
+{ id, userId, title, content, tags[], createdAt }
+
+Comment:
+{ id, postId, userId, comment, createdAt }
+
+Core Tasks
+• Register user (bcrypt password hashing)
+• Login → generate JWT token
+• Middleware to protect routes
+• Create / Update / Delete posts
+• Add comments to posts
+• Get all posts with comments
+
+Logic Challenge
+Create getTrendingPosts() based on number of comments
+
+Features
+• Role-based access (admin can delete any post)
+• Refresh tokens
+• Prevent duplicate post titles
+• Rate limiting
+• Input validation (Joi)
